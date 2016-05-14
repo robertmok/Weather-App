@@ -1,0 +1,140 @@
+body {
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-right: auto;
+     margin-left: auto;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#top {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#main {
+    margin: auto;
+    width: 75%;
+    height: auto;
+    border: 3px solid lightblue;
+    padding: 20px;
+    border-radius: 15px;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.5);
+    overflow:auto;
+}
+
+#city { 
+   width: 100%; 
+}
+
+h3 {
+    word-wrap: break-word;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    word-wrap: break-word;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#ctemp {
+    float: left;
+    margin-right: 30px;
+}
+
+#dcast {
+    margin: 0px;
+}
+
+#hcast {
+    margin: 0px;
+}
+
+#topform {
+    margin: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+#leftside {
+    float: left;
+    width: 50%
+}
+
+#rightside {
+    float: right;
+    width: 50%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    max-width:300px;
+}
+
+.btn {
+    white-space: normal;
+}
+
+h4 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+#leftside {
+    display: block;
+    width: 100%
+}
+
+#rightside {
+    display: block;
+    width: 100%;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h4 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+}
+
+@media screen and (max-width: 480px) {
+#ctemp {
+    display: block;
+    width: 100%;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+}

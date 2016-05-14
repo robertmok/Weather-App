@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="wappstyle.css">
+<script src="wappscript.js"> </script>
+
+<title>
+Weather App
+</title>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<section id="main">
+<form>
+<h2 id="top"> Enter a city: </h2> 
+<input id="city" type="text" onkeyup="mySearch()"> 
+</form>
+</section>
+
+<br>
+
+<section id="main">
+
+<section id="leftside">
+<h1 id="location"> </h1>
+<h3> Current Temperature </h3>
+<p id="ctemp"> ...  </p>
+<div id="topform" class="container">
+<form onchange="changeUnit(unit.value)">
+<label class="radio-inline">
+<input id="radio" type="radio" name="unit" value="metric" checked> Celsius 
+</label>
+<label class="radio-inline">
+<input id="radio" type="radio" name="unit" value="imperial"> Fahrenheit 
+</label>
+</form>
+</div>
+
+<section>
+<h3> Weather Condition </h3>
+<p id="wcondition"> ... <br> </p> 
+</section>
+
+<section>
+<h3> Wind Info </h3>
+<p id="cwind"> ... <br> </p>
+</section>
+
+<section>
+<h3> Humidity </h3>
+<p id="chumidity"> ... <br> </p>
+</section>
+
+</section>
+
+<section id="rightside">
+</section>
+
+</section>
+
+<br>
+
+<section id="main">
+<div class="btn-group btn-group-justified">
+    <div class="btn-group">
+      <button onclick="daily()" id="daycast" type="button" class="btn btn-primary"> 5 Day Forecast </button>
+    </div>
+    <div class="btn-group">
+      <button onclick="hourly()" id="hourcast" type="button" class="btn btn-primary"> 3 Hour Forecast </button>
+    </div>
+</div>
+
+<section>
+<div class="container">
+<p id="dcast"> </p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<p id="hcast"> </p>
+</div>
+</section>
+
+<footer>
+<h4> Swipe left on table to view more! </h4>
+</footer>
+
+</section>
+</div>
+</body>
+</html>
