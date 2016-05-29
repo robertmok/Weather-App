@@ -15,3 +15,7 @@ Information includes:
 
 The background will change based on the city's weather.
 The user has a choice of viewing the temperature in Celsius or Fahrenheit.
+
+This application is responsive (using Bootstrap) and asynchronous (using AJAX). Weather data is in XML format.
+
+**Note:** The  OpenWeatherMap API Key is removed from the code.
