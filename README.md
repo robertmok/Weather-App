@@ -19,3 +19,5 @@ The user has a choice of viewing the temperature in Celsius or Fahrenheit.
 This application is responsive (using Bootstrap) and asynchronous (using AJAX). Weather data is in XML format.
 
 **Note:** The  OpenWeatherMap API Key is removed from the code.
+
+**Live Demo:** Link is protected. Message me for login info.
